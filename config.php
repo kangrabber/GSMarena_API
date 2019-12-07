@@ -2,7 +2,7 @@
 
 // i hope you like it :)
 // Created by Kangrabber !
-
+error_reporting(0);
 function grab($data){
     return str_replace(PHP_EOL,'',file_get_contents($data));
 }
